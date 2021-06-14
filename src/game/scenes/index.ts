@@ -20,7 +20,7 @@ const SHARED_CONFIG = {
 
 const scenes = [BootScene, PreloadScene, MenuScene, ScoreScene, PlayScene, PauseScene];
 const createScene = Scene => new Scene(SHARED_CONFIG);
-const initScenes = () => scenes.map(createScene);
+const initScenes = () => Scenes.map(createScene);
 
 export default scenes;
 
